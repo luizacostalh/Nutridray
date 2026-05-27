@@ -1,0 +1,49 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@layer base {
+  :root {
+    --primary: #2E4B2F;
+    --primary-dark: #1F3A24;
+    --primary-mid: #314F31;
+    --secondary: #C7772D;
+    --secondary-hover: #B86822;
+    --bg: #F7F2EC;
+    --text: #2B241F;
+    --text-light: #F5E6D3;
+    --card: #FFFFFF;
+    --border-soft: #E8DED2;
+    --gold: #D99A4E;
+  }
+
+  html, body {
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, .font-heading {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer utilities {
+  .gradient-green {
+    background: linear-gradient(90deg, #1F3A24 0%, #314F31 50%, #1F3A24 100%);
+  }
+  .shadow-elegant {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+  }
+  .shadow-card {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  }
+  .animate-fade-up {
+    animation: fadeUp 0.8s ease-out both;
+  }
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(24px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}
