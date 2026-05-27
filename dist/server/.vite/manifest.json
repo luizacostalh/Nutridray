@@ -1,0 +1,116 @@
+{
+  "C:/Users/User/Downloads/nutrdray/src/styles.css": {
+    "file": "assets/styles-CqzgcMAW.css",
+    "src": "C:/Users/User/Downloads/nutrdray/src/styles.css"
+  },
+  "_server-DIpM3XnP.js": {
+    "file": "assets/server-DIpM3XnP.js",
+    "name": "server",
+    "isDynamicEntry": true,
+    "dynamicImports": [
+      "tanstack-start-manifest:v",
+      "src/router.tsx",
+      "src/start.ts",
+      "node_modules/@tanstack/start-server-core/dist/esm/empty-plugin-adapters.js"
+    ]
+  },
+  "_worker-entry-BXuDAXTq.js": {
+    "file": "assets/worker-entry-BXuDAXTq.js",
+    "name": "worker-entry",
+    "dynamicImports": [
+      "_server-DIpM3XnP.js"
+    ]
+  },
+  "node_modules/@tanstack/start-server-core/dist/esm/empty-plugin-adapters.js": {
+    "file": "assets/empty-plugin-adapters-BFgPZ6_d.js",
+    "name": "empty-plugin-adapters",
+    "src": "node_modules/@tanstack/start-server-core/dist/esm/empty-plugin-adapters.js",
+    "isDynamicEntry": true
+  },
+  "src/assets/about.jpg": {
+    "file": "assets/about-D0oqCQzz.jpg",
+    "src": "src/assets/about.jpg"
+  },
+  "src/assets/apple.jpg": {
+    "file": "assets/apple-BITdbnBE.jpg",
+    "src": "src/assets/apple.jpg"
+  },
+  "src/assets/cocktail.jpg": {
+    "file": "assets/cocktail-UTgm04f1.jpg",
+    "src": "src/assets/cocktail.jpg"
+  },
+  "src/assets/hero.jpg": {
+    "file": "assets/hero-BJoClATF.jpg",
+    "src": "src/assets/hero.jpg"
+  },
+  "src/assets/kiwi.jpg": {
+    "file": "assets/kiwi-GdMZW2_e.jpg",
+    "src": "src/assets/kiwi.jpg"
+  },
+  "src/assets/lemon.jpg": {
+    "file": "assets/lemon-7uwz53ho.jpg",
+    "src": "src/assets/lemon.jpg"
+  },
+  "src/assets/orange.jpg": {
+    "file": "assets/orange-DaFplPlS.jpg",
+    "src": "src/assets/orange.jpg"
+  },
+  "src/router.tsx": {
+    "file": "assets/router-D82NHVVJ.js",
+    "name": "router",
+    "src": "src/router.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-DIpM3XnP.js"
+    ],
+    "dynamicImports": [
+      "src/routes/index.tsx?tsr-split=component"
+    ],
+    "assets": [
+      "assets/styles-CqzgcMAW.css"
+    ]
+  },
+  "src/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-CwgRSNJ2.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-DIpM3XnP.js"
+    ],
+    "assets": [
+      "assets/hero-BJoClATF.jpg",
+      "assets/about-D0oqCQzz.jpg",
+      "assets/orange-DaFplPlS.jpg",
+      "assets/lemon-7uwz53ho.jpg",
+      "assets/apple-BITdbnBE.jpg",
+      "assets/kiwi-GdMZW2_e.jpg",
+      "assets/cocktail-UTgm04f1.jpg"
+    ]
+  },
+  "src/start.ts": {
+    "file": "assets/start-BmH2lhgM.js",
+    "name": "start",
+    "src": "src/start.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-DIpM3XnP.js",
+      "_worker-entry-BXuDAXTq.js"
+    ]
+  },
+  "tanstack-start-manifest:v": {
+    "file": "assets/_tanstack-start-manifest_v-bBC9Knuv.js",
+    "name": "_tanstack-start-manifest_v",
+    "src": "tanstack-start-manifest:v",
+    "isDynamicEntry": true
+  },
+  "virtual:cloudflare/worker-entry": {
+    "file": "index.js",
+    "name": "index",
+    "src": "virtual:cloudflare/worker-entry",
+    "isEntry": true,
+    "imports": [
+      "_worker-entry-BXuDAXTq.js"
+    ]
+  }
+}
